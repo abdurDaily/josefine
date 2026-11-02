@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Josefine Wanner — Build a Business That Creates Opportunities</title>
+  <meta name="description" content="Josefine Wanner helps coaches and service providers use LinkedIn to build their reputation, attract the right clients and create a freedom-based business.">
+  <link rel="icon" href="assets/logo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            teal: { DEFAULT: '#0B4D5E', deep: '#073642', ink: '#04252E', soft: '#1E6476' },
+            sand: { DEFAULT: '#C2A677', light: '#E4D3B0', pale: '#F1E8D8' },
+            cream: { DEFAULT: '#F6F1E9', warm: '#EFE7DA' },
+            blush: '#E8508E'
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans: ['Manrope', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-cream text-teal-ink font-sans antialiased">
+
+  <!-- Preloader -->
+  <div id="loader" class="fixed inset-0 z-[100] bg-teal-ink flex items-center justify-center">
+    <div class="text-center">
+      <div class="loader-mark font-serif text-sand text-7xl md:text-8xl overflow-hidden"><span class="inline-block">J</span><span class="inline-block italic">W</span></div>
+      <div class="mt-6 w-44 h-px bg-white/15 mx-auto overflow-hidden"><div class="loader-bar h-full bg-sand w-0"></div></div>
+      <p class="mt-4 text-[10px] tracking-[.4em] uppercase text-white/50">Josefine Wanner Academy</p>
+    </div>
+  </div>
+
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"><span>View</span></div>
+  <div class="progress" aria-hidden="true"></div>
+
+  <!-- ================= NAV ================= -->
+  <header id="nav" class="fixed top-0 inset-x-0 z-50 transition-all duration-500">
+    <div class="wrap h-20 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-3 group" aria-label="Josefine Wanner home">
+        <img src="assets/logo.png" alt="" class="w-10 h-10 transition-transform duration-700 group-hover:rotate-[360deg]">
+        <span class="font-serif text-lg leading-none">Josefine <em class="text-teal-soft">Wanner</em></span>
+      </a>
+      <nav class="hidden lg:flex items-center gap-8 text-[13px] font-medium">
+        <a href="#story" class="nav-link">My story</a>
+        <a href="#blueprint" class="nav-link">Blueprint</a>
+        <a href="#masterclass" class="nav-link">Masterclass</a>
+        <a href="#youtube" class="nav-link">YouTube</a>
+        <a href="#teams" class="nav-link">For teams</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="https://www.josefinewanner.com/login" class="hidden md:inline text-[13px] font-medium nav-link mr-2">Log in</a>
+        <a href="work-with-me.html" class="hidden sm:inline-flex btn btn-primary magnetic"><span>Work with me</span></a>
+        <button id="menuBtn" class="lg:hidden w-11 h-11 rounded-full border border-teal/20 flex flex-col items-center justify-center gap-1.5" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span class="w-5 h-px bg-teal-ink transition"></span><span class="w-5 h-px bg-teal-ink transition"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div id="mobileMenu" class="fixed inset-0 z-40 bg-teal-ink text-cream flex flex-col justify-center px-8 pointer-events-none opacity-0">
+    <nav class="flex flex-col gap-4 font-serif text-4xl">
+      <a href="#story">My story</a><a href="#blueprint">Blueprint</a><a href="#masterclass">Masterclass</a><a href="#youtube">YouTube</a><a href="#teams">For teams</a><a href="blog.html">Blog</a>
+    </nav>
+    <div class="mt-10 flex gap-3"><a href="work-with-me.html" class="btn btn-sand"><span>Work with me</span></a><a href="https://www.josefinewanner.com/login" class="btn btn-ghost-light"><span>Log in</span></a></div>
+  </div>
+
+  <main id="top">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero relative min-h-[100svh] pt-28 md:pt-36 pb-20 overflow-hidden">
+      <div class="hero-blob absolute -top-40 -right-40 w-[680px] h-[680px] rounded-full bg-sand/25 blur-3xl"></div>
+      <div class="absolute bottom-0 -left-40 w-[420px] h-[420px] rounded-full bg-teal/10 blur-3xl"></div>
+      <div class="grid-lines" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+
+      <div class="relative wrap grid lg:grid-cols-12 gap-12 lg:gap-6 items-center">
+        <div class="lg:col-span-7 relative z-10">
+          <div data-hero class="hero-eyebrow inline-flex items-center gap-3 rounded-full border border-teal/15 bg-white/60 backdrop-blur px-4 py-2 text-[12px] font-semibold">
+            <span class="relative flex w-2 h-2"><span class="absolute inset-0 rounded-full bg-blush animate-ping opacity-70"></span><span class="relative w-2 h-2 rounded-full bg-blush"></span></span>
+            For coaches, consultants &amp; service providers
+          </div>
+
+          <h1 class="hero-title font-serif mt-7 text-[12.5vw] sm:text-7xl lg:text-[86px] xl:text-[100px] leading-[.98] tracking-[-0.02em]">
+            <span class="line"><span>Build a business</span></span>
+            <span class="line"><span>that <em class="text-teal-soft">creates</em></span></span>
+            <span class="line"><span><em class="underline-sand">opportunities.</em></span></span>
+          </h1>
+
+          <p data-hero class="hero-sub mt-8 max-w-xl text-lg md:text-xl text-teal-ink/75 leading-relaxed">
+            …because “finding clients” shouldn't be your full-time job. Build your reputation, attract the right clients and create a business that gives you more freedom, with LinkedIn as the foundation.
+          </p>
+
+          <div data-hero class="hero-cta mt-10 flex flex-wrap items-center gap-4">
+            <a href="#blueprint" class="btn btn-primary btn-lg magnetic"><span>Get the free LinkedIn Blueprint</span>
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+            <a href="#masterclass" class="btn btn-ghost magnetic"><span>Join the live masterclass</span></a>
+          </div>
+          <img src="assets/script-start-here.png" alt="" data-hero class="hero-script hidden md:block w-36 mt-3 ml-10 -rotate-6" aria-hidden="true">
+
+          <div data-hero class="hero-proof mt-10 md:mt-6 flex items-center gap-5">
+            <div class="flex -space-x-3">
+              <span class="avatar bg-sand">AC</span><span class="avatar bg-teal-soft text-cream">LS</span><span class="avatar bg-blush text-white">MS</span><span class="avatar bg-teal text-sand">+</span>
+            </div>
+            <p class="text-sm text-teal-ink/70 leading-snug">The Blueprint has helped <strong class="text-teal-ink"><span class="count" data-to="5000">0</span>+</strong><br>coaches turn their profile into a client magnet</p>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5 relative">
+          <div class="hero-frame relative mx-auto w-[84%] sm:w-[66%] lg:w-full max-w-[470px]">
+            <div class="arch relative overflow-hidden bg-teal">
+              <img src="assets/portrait-garden.jpg" alt="Josefine Wanner smiling in a garden" class="hero-img w-full h-full object-cover">
+            </div>
+            <svg class="spin-badge absolute -right-4 md:-right-10 -top-6 w-28 h-28 md:w-36 md:h-36" viewBox="0 0 200 200" aria-hidden="true">
+              <defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+              <circle cx="100" cy="100" r="98" fill="#0B4D5E"/>
+              <text font-family="Manrope" font-size="14.5" letter-spacing="5" fill="#E4D3B0" font-weight="600"><textPath href="#circ">VISIBILITY · TRUST · CHOICE · </textPath></text>
+              <text x="100" y="114" text-anchor="middle" font-family="Playfair Display" font-style="italic" font-size="44" fill="#C2A677">in</text>
+            </svg>
+            <div class="float-card absolute -right-2 md:-right-8 bottom-28 bg-white rounded-2xl shadow-xl shadow-teal/10 p-4 w-52">
+              <p class="text-[10px] uppercase tracking-[.2em] text-teal-soft font-bold">Leads attracted</p>
+              <p class="font-serif text-3xl mt-1">400+</p>
+              <svg viewBox="0 0 160 40" class="mt-2 w-full" aria-hidden="true"><path class="spark" d="M0 34 L20 30 L40 31 L60 22 L80 24 L100 14 L120 16 L140 6 L160 4" fill="none" stroke="#C2A677" stroke-width="2.5" stroke-linecap="round"/></svg>
+              <p class="text-[11px] text-teal-ink/60 mt-1">Araceli, client story</p>
+            </div>
+            <a href="#masterclass" class="float-card2 absolute -left-4 md:-left-10 -bottom-6 bg-teal text-cream rounded-2xl p-4 pr-6 shadow-xl flex items-center gap-3">
+              <span class="w-10 h-10 rounded-full bg-sand/20 flex items-center justify-center"><svg class="w-5 h-5 text-sand" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+              <span><span class="block text-[11px] text-sand-light/80">Live masterclass</span><span class="block font-semibold text-sm">Wed 11 Nov · 17:00 CET</span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TRUSTED ================= -->
+    <section class="py-12 border-y border-teal/10 bg-white/50">
+      <p class="text-center text-[11px] tracking-[.35em] uppercase text-teal-ink/50 mb-8 px-4">Trusted by coaches, consultants, leaders &amp; teams at</p>
+      <div class="marquee overflow-hidden">
+        <div class="marquee-track flex items-center gap-16 w-max">
+          <img src="assets/partners.png" alt="Club Navigator, AstraZeneca, Goldman Sachs, UBS, ISGAM, Carrier, ABB" class="h-10 md:h-12 w-auto opacity-80">
+          <span class="brand-word">Johnson &amp; Johnson</span><span class="brand-word">ICF UK</span><span class="brand-word">Ezra Coaching</span><span class="brand-word">SWEA</span>
+          <img src="assets/partners.png" alt="" aria-hidden="true" class="h-10 md:h-12 w-auto opacity-80">
+          <span class="brand-word" aria-hidden="true">Johnson &amp; Johnson</span><span class="brand-word" aria-hidden="true">ICF UK</span><span class="brand-word" aria-hidden="true">Ezra Coaching</span><span class="brand-word" aria-hidden="true">SWEA</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 01 STORY ================= -->
+    <section id="story" class="relative py-28 md:py-40">
+      <div class="wrap grid lg:grid-cols-12 gap-14 lg:gap-20 items-start">
+        <div class="lg:col-span-5 lg:sticky lg:top-28">
+          <div class="relative">
+            <div class="rounded-[28px] overflow-hidden aspect-[4/5] bg-teal">
+              <img src="assets/portrait-teal.jpg" alt="Josefine Wanner sitting at an event" class="parallax-img w-full h-[115%] object-cover object-top">
+            </div>
+            <div class="absolute -bottom-8 -right-4 md:-right-10 bg-cream rounded-2xl p-5 shadow-2xl shadow-teal/15 w-56 story-stat">
+              <p class="font-serif text-5xl text-teal"><span class="count" data-to="14">0</span>h</p>
+              <p class="text-sm text-teal-ink/65 mt-1">days, evenings and weekends, in her first year after corporate</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:col-span-7">
+          <p class="sec-label"><span>01</span>Why it matters</p>
+          <h2 class="h-display mt-6 reveal-up">Why a <em class="text-teal-soft">freedom-based</em> business matters</h2>
+          <p class="mt-8 text-xl md:text-2xl font-serif leading-snug text-teal-ink/85 reveal-up">“When I left corporate, I thought I was building a freedom-based business. In reality, I was building <span class="mark">another full-time job.</span>”</p>
+          <p class="mt-6 text-lg text-teal-ink/70 leading-relaxed reveal-up">I worked evenings. Weekends. Most times 14-hour days. What I actually wanted was freedom:</p>
+
+          <ul class="freedoms mt-10 border-t border-teal/15">
+            <li><span>i.</span><p>The freedom to <strong>decide who I work with.</strong></p></li>
+            <li><span>ii.</span><p>The freedom to <strong>take a holiday</strong> without worrying where my next client would come from.</p></li>
+            <li><span>iii.</span><p>The freedom to <strong>say no</strong> to opportunities that weren't the right fit.</p></li>
+            <li><span>iv.</span><p>The freedom to build a business that <strong>supported my life</strong>, not one that consumed it.</p></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 02 OPPORTUNITIES ================= -->
+    <section id="opportunities" class="relative pb-28 md:pb-40">
+      <div class="wrap">
+        <p class="sec-label"><span>02</span>What I believe</p>
+        <p class="manifesto font-serif text-3xl sm:text-4xl md:text-[58px] tracking-tight mt-8 max-w-[1100px]">
+          Today, I believe your business should <em>create opportunities.</em> Not because you're constantly chasing them, but because you've built a reputation that makes the right people <em>want to find you.</em>
+        </p>
+
+        <div class="mt-20 grid md:grid-cols-2 gap-px bg-teal/10 rounded-[28px] overflow-hidden opp-grid">
+          <div class="opp"><span class="opp-star">★</span><p>The opportunity to <em>leave a job</em> that drains you.</p></div>
+          <div class="opp"><span class="opp-star">★</span><p>The opportunity to <em>build something</em> of your own.</p></div>
+          <div class="opp"><span class="opp-star">★</span><p>The opportunity to <em>choose who</em> you work with.</p></div>
+          <div class="opp"><span class="opp-star">★</span><p>The opportunity to create a business that <em>supports your life</em>, not the other way around.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 03 CHOICE / CONFIDENCE / FREEDOM (horizontal) ================= -->
+    <section id="choice" class="hscroll relative bg-teal-ink text-cream overflow-hidden">
+      <div class="hscroll-track flex flex-col lg:flex-row lg:h-screen lg:w-max">
+        <div class="hpanel hpanel-intro">
+          <p class="sec-label sec-label-light"><span>03</span>What it gives you</p>
+          <h2 class="h-display mt-6">A business that gives you <em class="text-sand">more than an income.</em></h2>
+          <img src="assets/script-your-choice.png" alt="your choice." class="w-56 md:w-72 mt-10 -rotate-3">
+          <p class="mt-10 hidden lg:flex items-center gap-3 text-sm text-cream/50">Keep scrolling <span class="w-12 h-px bg-cream/30"></span></p>
+        </div>
+        <div class="hpanel">
+          <span class="hp-num">01</span>
+          <h3 class="hp-word">Choice</h3>
+          <p class="hp-text">The choice to work with people you genuinely enjoy.</p>
+        </div>
+        <div class="hpanel">
+          <span class="hp-num">02</span>
+          <h3 class="hp-word"><em>Confidence</em></h3>
+          <p class="hp-text">The confidence to say no to opportunities that aren't the right fit.</p>
+        </div>
+        <div class="hpanel">
+          <span class="hp-num">03</span>
+          <h3 class="hp-word">Freedom</h3>
+          <p class="hp-text">The freedom to build a business around your life, instead of building your life around your business.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 04 LINKEDIN / PILLARS ================= -->
+    <section id="linkedin" class="relative py-28 md:py-40">
+      <div class="wrap">
+        <div class="grid lg:grid-cols-12 gap-10 items-end">
+          <div class="lg:col-span-7">
+            <p class="sec-label"><span>04</span>Why LinkedIn</p>
+            <h2 class="h-display mt-6 reveal-up">Somewhere your reputation can grow <em class="text-teal-soft">while you do the work you love.</em></h2>
+          </div>
+          <div class="lg:col-span-5 text-lg text-teal-ink/70 leading-relaxed reveal-up">
+            <p>I don't believe everyone has to be on LinkedIn. But every business needs somewhere people can discover you, get to know you and build trust in you.</p>
+            <p class="mt-4">For me, and for thousands of coaches and service providers I've taught, that place has been LinkedIn: one of the few platforms where genuine relationships, trust and opportunities still grow <strong class="text-teal-ink">organically.</strong></p>
+          </div>
+        </div>
+
+        <div class="mt-20 flex flex-col md:flex-row md:items-center gap-6 md:gap-10">
+          <p class="font-serif text-2xl md:text-3xl">Sustainable growth comes down to three simple things:</p>
+          <img src="assets/script-visibility-trust-choice.png" alt="visibility. trust. choice." class="w-full max-w-md draw-in">
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-5 mt-12 pillars">
+          <article class="pillar group">
+            <span class="pillar-num">01</span>
+            <div class="pillar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/></svg></div>
+            <h3 class="font-serif text-3xl mt-auto">Visibility</h3>
+            <p class="mt-3 opacity-70">Make it easy for the right people to find you and immediately understand who you help.</p>
+          </article>
+          <article class="pillar group">
+            <span class="pillar-num">02</span>
+            <div class="pillar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></div>
+            <h3 class="font-serif text-3xl mt-auto">Trust</h3>
+            <p class="mt-3 opacity-70">Content and conversations that build genuine trust, not just likes, so reaching out feels natural.</p>
+          </article>
+          <article class="pillar group">
+            <span class="pillar-num">03</span>
+            <div class="pillar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12h6l2-6 2 12 2-6h4"/></svg></div>
+            <h3 class="font-serif text-3xl mt-auto">Choice</h3>
+            <p class="mt-3 opacity-70">When opportunities come to you, you get to choose the clients, projects and life you want.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 05 PROBLEM ================= -->
+    <section id="problem" class="relative bg-sand-pale py-28 md:py-40 overflow-hidden">
+      <div class="wrap">
+        <div class="max-w-4xl">
+          <p class="sec-label"><span>05</span>The real problem</p>
+          <h2 class="h-display mt-6 reveal-up">If finding clients still <em class="text-teal-soft">depends on you…</em></h2>
+          <p class="mt-6 text-xl text-teal-ink/70 reveal-up">…then your business is working harder than it needs to.</p>
+        </div>
+
+        <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-4 symptoms">
+          <div class="symptom"><span>Maybe</span><p>you're relying on referrals.</p></div>
+          <div class="symptom"><span>Maybe</span><p>you're networking constantly.</p></div>
+          <div class="symptom"><span>Maybe</span><p>you're creating content, but it isn't turning into conversations.</p></div>
+          <div class="symptom"><span>Or perhaps</span><p>people visit your profile… and quietly leave again.</p></div>
+        </div>
+
+        <div class="mt-24 grid lg:grid-cols-12 gap-10 items-center">
+          <div class="lg:col-span-6">
+            <p class="text-lg text-teal-ink/70">Not because you're not good at what you do. When people don't immediately understand <strong class="text-teal-ink">who you help, why you're different and why they should trust you,</strong> they move on. Not because they found someone better…</p>
+            <p class="font-serif text-4xl md:text-6xl leading-[1.05] mt-8 reveal-up">…but because they understood <em class="text-blush">someone else first.</em></p>
+          </div>
+          <div class="lg:col-span-6 lg:pl-10">
+            <div class="good-news rounded-[28px] bg-teal text-cream p-8 md:p-12">
+              <p class="text-[11px] tracking-[.3em] uppercase text-sand font-bold">That's the good news</p>
+              <ul class="strike-list mt-6 font-serif text-2xl md:text-3xl space-y-3">
+                <li>You don't need to <span class="strike">become louder.</span></li>
+                <li>You don't need to <span class="strike">become someone you're not.</span></li>
+                <li>You don't need to <span class="strike">be everywhere.</span></li>
+              </ul>
+              <p class="mt-8 text-cream/75 text-lg">You simply need to make it easier for the right people to <strong class="text-sand-light">find you, understand what you do and trust you</strong> enough to take the next step.</p>
+              <a href="#blueprint" class="btn btn-sand magnetic mt-8"><span>That's where we start</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 06 BLUEPRINT ================= -->
+    <section id="blueprint" class="relative bg-teal-deep text-cream py-28 md:py-40 overflow-hidden">
+      <div class="absolute -right-40 top-20 w-[520px] h-[520px] rounded-full border border-sand/15"></div>
+      <div class="absolute -right-20 top-40 w-[520px] h-[520px] rounded-full border border-sand/10"></div>
+      <div class="relative wrap grid lg:grid-cols-2 gap-16 items-center">
+        <div>
+          <p class="sec-label sec-label-light"><span>06</span>Free resource</p>
+          <h2 class="h-display mt-6 reveal-up">The LinkedIn Profile <em class="text-sand">Blueprint</em></h2>
+          <p class="mt-6 text-lg text-cream/70 max-w-lg reveal-up">Your profile is often the first impression someone has of your business. Let's make sure it reflects the expertise you've worked so hard to build, section by section, with step-by-step instructions.</p>
+          <ul class="mt-8 space-y-4 checklist">
+            <li><span class="check"></span>A proven framework to position yourself clearly</li>
+            <li><span class="check"></span>A banner template that communicates your value at a glance</li>
+            <li><span class="check"></span>An About section that builds trust without sounding salesy</li>
+            <li><span class="check"></span>A clear implementation guide to work through at your own pace</li>
+          </ul>
+          <p class="mt-8 font-serif italic text-xl text-sand-light">No guessing. No staring at a blank screen.</p>
+          <form data-demo-form data-success="On its way ✓" data-message="Check your inbox: your Blueprint is on its way." class="mt-6 flex flex-col sm:flex-row gap-3 max-w-lg">
+            <label for="bp-email" class="sr-only">Email address</label>
+            <input id="bp-email" type="email" required autocomplete="email" placeholder="Your best email" class="flex-1 rounded-full bg-white/10 border border-white/15 px-6 py-4 placeholder:text-cream/40 focus:outline-none focus:border-sand transition">
+            <button type="submit" class="btn btn-sand magnetic justify-center"><span>Get instant access</span></button>
+          </form>
+          <p class="form-msg mt-4 text-sm text-cream/50" aria-live="polite">Join 5,000+ coaches &amp; service providers. Free, no spam.</p>
+        </div>
+        <div class="relative bp-visual">
+          <div class="absolute inset-10 bg-sand/20 blur-3xl rounded-full"></div>
+          <img src="assets/blueprint.png" alt="LinkedIn Profile Blueprint shown on a laptop and phone" class="relative w-full rounded-2xl">
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 07 ABOUT ================= -->
+    <section id="about" class="relative bg-teal-ink text-cream py-28 md:py-40 overflow-hidden">
+      <div class="wrap grid lg:grid-cols-12 gap-14 lg:gap-20 items-start">
+        <div class="lg:col-span-5 lg:sticky lg:top-28">
+          <div class="relative rounded-[28px] overflow-hidden aspect-[3/4]">
+            <img src="assets/portrait-stairs.jpg" alt="Portrait of Josefine Wanner sitting on stone steps" class="parallax-img w-full h-[115%] object-cover">
+          </div>
+          <img src="assets/script-hi-im-josefine.png" alt="Hi! I'm Josefine!" class="w-64 md:w-80 mx-auto mt-8 -rotate-3 opacity-90">
+        </div>
+        <div class="lg:col-span-7">
+          <p class="sec-label sec-label-light"><span>07</span>Meet Josefine</p>
+          <h2 class="h-display mt-6 reveal-up">This wasn't built in a boardroom. It was built <em class="text-sand">one conversation at a time.</em></h2>
+          <p class="mt-8 text-lg text-cream/70 leading-relaxed reveal-up">For almost 20 years I built my career in Financial Services, leading projects, improving processes and helping large organisations solve complex problems. When I left corporate, I thought my experience alone would be enough. <strong class="text-cream">It wasn't.</strong> So I started experimenting.</p>
+          <p class="mt-5 text-lg text-cream/70 leading-relaxed reveal-up">One post. One conversation. One genuine connection at a time. LinkedIn became the place where I attracted:</p>
+          <div class="mt-6 flex flex-wrap gap-2 tags">
+            <span>Clients</span><span>Collaborations</span><span>Podcast invitations</span><span>Speaking engagements</span><span>Opportunities I couldn't have planned</span>
+          </div>
+
+          <div class="anette mt-12 rounded-[24px] border border-sand/25 p-7 md:p-9 bg-white/[.03]">
+            <p class="text-[11px] tracking-[.3em] uppercase text-sand font-bold">The moment it became a system</p>
+            <p class="font-serif text-2xl md:text-3xl mt-4 leading-snug">My coaching colleague Anette kept asking me to show her exactly what I was doing. She signed <em class="text-sand">3 new clients in 8 weeks</em>, with fewer than 700 followers.</p>
+          </div>
+
+          <div class="mt-14 grid grid-cols-3 gap-4 stats">
+            <div class="stat"><p><span class="count" data-to="5000">0</span>+</p><small>Coaches &amp; service providers taught</small></div>
+            <div class="stat"><p>~<span class="count" data-to="20">0</span></p><small>Years in Financial Services</small></div>
+            <div class="stat"><p><span class="count" data-to="175">0</span></p><small>Free videos on YouTube</small></div>
+          </div>
+
+          <blockquote class="mt-14 border-l-2 border-sand pl-6">
+            <p class="text-[11px] tracking-[.3em] uppercase text-sand font-bold">My mission</p>
+            <p class="font-serif text-2xl md:text-[32px] leading-snug mt-3">To help business owners become known for what they do, build genuine trust and create businesses that generate opportunities, so finding clients no longer has to be a full-time job.</p>
+          </blockquote>
+          <p class="mt-8 text-cream/60 leading-relaxed">When I help you reach more of the people who need you, you create more impact. Those people go on to help others, and that's how the snowball starts rolling.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 08 MASTERCLASS ================= -->
+    <section id="masterclass" class="relative py-28 md:py-40">
+      <div class="wrap">
+        <div class="mc relative rounded-[32px] md:rounded-[48px] bg-white overflow-hidden grid lg:grid-cols-12">
+          <div class="lg:col-span-7 p-7 md:p-14 lg:p-16">
+            <p class="sec-label"><span>08</span>Beyond your profile</p>
+            <div class="mt-6 flex flex-wrap items-center gap-3"><span class="tag tag-blush">Free · Live</span><span class="text-sm font-semibold text-teal-ink/70">Wednesday 11 November · 17:00 CET</span></div>
+            <h2 class="h-display mt-6">Your Next Client <em class="text-teal-soft">Masterclass</em></h2>
+            <p class="mt-5 text-lg text-teal-ink/70">Your LinkedIn profile is just the beginning. Join me live to build a business that consistently creates opportunities. This is what I help my clients do:</p>
+            <ul class="mt-8 space-y-3 ticks">
+              <li>Position yourself so the right people immediately understand who you help</li>
+              <li>Create content that builds trust, not just likes</li>
+              <li>Grow an engaged audience without spending all day on LinkedIn</li>
+              <li>Turn conversations into clients, without cold pitching or awkward sales messages</li>
+              <li>Build a business that creates opportunities long after you've logged off</li>
+            </ul>
+          </div>
+          <div class="lg:col-span-5 relative bg-teal text-cream p-7 md:p-14 lg:p-12 flex flex-col justify-center">
+            <div class="absolute inset-0 opacity-30"><img src="assets/portrait-garden.jpg" alt="" class="w-full h-full object-cover object-top mix-blend-luminosity"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-teal-ink via-teal/90 to-teal/70"></div>
+            <div class="relative">
+              <p class="big-reveal-badge inline-flex items-center gap-2 rounded-full bg-blush text-white text-[12px] font-bold px-4 py-2">✦ Be there live: I'm revealing something BIG</p>
+              <p class="mt-8 text-[11px] tracking-[.3em] uppercase text-sand-light/80 font-bold">Doors open in</p>
+              <div class="countdown mt-4 grid grid-cols-4 gap-2" data-target="2026-11-11T16:00:00Z" role="timer" aria-label="Time until the masterclass">
+                <div><span data-u="d">00</span><small>Days</small></div>
+                <div><span data-u="h">00</span><small>Hrs</small></div>
+                <div><span data-u="m">00</span><small>Min</small></div>
+                <div><span data-u="s">00</span><small>Sec</small></div>
+              </div>
+              <a href="masterclass.html" class="btn btn-sand btn-lg magnetic mt-8 w-full justify-center"><span>Save my seat</span></a>
+              <p class="mt-4 text-sm text-cream/60 text-center">Stop wondering where your next client will come from.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 09 STORIES ================= -->
+    <section id="stories" class="relative bg-sand-pale py-28 md:py-40 overflow-hidden">
+      <div class="wrap">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-14">
+          <div><p class="sec-label"><span>09</span>Client stories</p><h2 class="h-display mt-6 reveal-up">Real people. <em class="text-teal-soft">Real results.</em></h2></div>
+          <p class="max-w-sm text-teal-ink/65">From no profile picture to board seats, from referrals-only to a 200+ participant course.</p>
+        </div>
+
+        <div class="grid lg:grid-cols-12 gap-8">
+          <div class="lg:col-span-4 flex lg:flex-col gap-3 overflow-x-auto pb-2 lg:pb-0 story-tabs" role="tablist" aria-label="Client stories">
+            <button role="tab" aria-selected="true" aria-controls="st-1" id="tab-1" class="story-tab is-active"><span class="st-av bg-sand">AC</span><span class="text-left"><strong>Araceli Canedo-Bebbington</strong><small>Coach · Board member · Speaker</small></span></button>
+            <button role="tab" aria-selected="false" aria-controls="st-2" id="tab-2" class="story-tab" tabindex="-1"><span class="st-av bg-teal-soft text-cream">LS</span><span class="text-left"><strong>Lisa Sennhauser-Kelly</strong><small>Lead generation that works</small></span></button>
+            <button role="tab" aria-selected="false" aria-controls="st-3" id="tab-3" class="story-tab" tabindex="-1"><span class="st-av bg-blush text-white">MS</span><span class="text-left"><strong>Maryna Shchipak</strong><small>Visible in 8 weeks</small></span></button>
+          </div>
+
+          <div class="lg:col-span-8 stories">
+            <article id="st-1" role="tabpanel" aria-labelledby="tab-1" class="story is-active">
+              <div class="before"><span>Before</span><p>“I didn't even have a profile picture, and the thought of posting felt overwhelming. I worried what my colleagues would think, and if I was even ready to put myself out there.”</p></div>
+              <div class="after">
+                <span>After</span>
+                <ul>
+                  <li>Board member assignments, speaking gigs &amp; high-ticket 1:1 clients</li>
+                  <li>Launched her coaching business as a full-time career</li>
+                  <li><strong>400+ leads</strong> attracted</li>
+                  <li>A scalable online program, <strong>run 8 times</strong></li>
+                </ul>
+                <blockquote>“I've gone from feeling uncertain to showing up confidently, knowing exactly how to use LinkedIn as a powerful tool for growth.”</blockquote>
+              </div>
+            </article>
+            <article id="st-2" role="tabpanel" aria-labelledby="tab-2" class="story" hidden>
+              <div class="before"><span>Before</span><p>“I was already well-connected on LinkedIn, with over 5,000 connections, but most new clients came through referrals. I had no real system for consistently generating leads.”</p></div>
+              <div class="after">
+                <span>After</span>
+                <ul>
+                  <li>Attracting 1:1 clients with ease</li>
+                  <li>Published her own LinkedIn newsletter</li>
+                  <li>Launched scalable online programs</li>
+                  <li>Ran an online course with <strong>200+ participants</strong></li>
+                </ul>
+                <blockquote>“Now, that's completely changed. This Lead Generation. It's working!”</blockquote>
+              </div>
+            </article>
+            <article id="st-3" role="tabpanel" aria-labelledby="tab-3" class="story" hidden>
+              <div class="before"><span>Before</span><p>“For years, I struggled with visibility on Facebook and Instagram. It always felt heavy: pushy, salesy. I wasn't even sure LinkedIn was for me.”</p></div>
+              <div class="after">
+                <span>After 8 weeks</span>
+                <ul>
+                  <li>Network grew from <strong>500 to almost 900</strong>, people she enjoys</li>
+                  <li>Posts became visible to the right audience</li>
+                  <li>Hosted her first live event</li>
+                  <li><strong>3 clients waiting</strong> for her program to open</li>
+                </ul>
+                <blockquote>“It doesn't feel heavy anymore. I actually enjoy the process.”</blockquote>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 10 YOUTUBE ================= -->
+    <section id="youtube" class="relative py-28 md:py-40 overflow-hidden">
+      <div class="wrap">
+        <div class="grid lg:grid-cols-12 gap-10 items-end">
+          <div class="lg:col-span-7">
+            <p class="sec-label"><span>10</span>Learn for free on YouTube</p>
+            <h2 class="h-display mt-6 reveal-up">Weekly strategy, <em class="text-teal-soft">straight from Josefine.</em></h2>
+          </div>
+          <div class="lg:col-span-5">
+            <div class="yt-channel flex items-center gap-4 rounded-2xl bg-white p-4 pr-5 border border-teal/10">
+              <img src="assets/logo.png" alt="" class="w-14 h-14 rounded-full">
+              <div class="flex-1 min-w-0">
+                <p class="font-semibold truncate">Josefine Wanner</p>
+                <p class="text-sm text-teal-ink/60">@josefinewanner</p><p class="text-xs text-teal-ink/50">1.18K subscribers · 175 videos</p>
+              </div>
+              <a href="https://www.youtube.com/@josefinewanner?sub_confirmation=1" class="btn btn-yt magnetic shrink-0" target="_blank" rel="noopener"><span>Subscribe</span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-12 grid lg:grid-cols-12 gap-6">
+          <div class="lg:col-span-8">
+            <div class="yt-player relative aspect-video rounded-[24px] overflow-hidden bg-teal-ink" data-id="GnRn7g2mplg">
+              <img class="yt-thumb absolute inset-0 w-full h-full object-cover" src="https://i.ytimg.com/vi/GnRn7g2mplg/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/GnRn7g2mplg/hqdefault.jpg'" alt="">
+              <div class="absolute inset-0 bg-teal-ink/10"></div>
+              <button class="yt-play absolute inset-0 flex items-center justify-center" aria-label="Play video">
+                <span class="yt-play-btn"><svg viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 ml-1"><path d="M8 5v14l11-7z"/></svg></span>
+              </button>
+            </div>
+            <div class="mt-5 flex items-start gap-4">
+              <span class="tag tag-sand-solid shrink-0 mt-1">Now showing</span>
+              <p class="yt-title font-serif text-2xl md:text-3xl leading-tight">How to Get Clients on LinkedIn: Your 30-Day Plan to Land Your First Client</p>
+            </div>
+          </div>
+          <div class="lg:col-span-4 flex flex-col gap-4">
+            <div class="rounded-[24px] bg-teal text-cream p-7 flex-1">
+              <p class="text-[11px] tracking-[.3em] uppercase text-sand font-bold">On the channel</p>
+              <p class="mt-4 text-cream/80 leading-relaxed">After 20 years in Financial Services, including UBS and the Big 4, Josefine left corporate to build something she owns. Now she shows you how to do the same.</p>
+              <ul class="mt-6 space-y-2 text-sm yt-topics">
+                <li>Turn your expertise into offers people want to buy</li>
+                <li>Build an audience that knows, likes &amp; trusts you</li>
+                <li>Use LinkedIn to attract clients</li>
+                <li>Create scalable offers, sell without cold pitching</li>
+              </ul>
+            </div>
+            <a href="https://www.youtube.com/@josefinewanner/streams" target="_blank" rel="noopener" class="rounded-[24px] bg-white border border-teal/10 p-6 flex items-center justify-between group">
+              <span><span class="flex items-center gap-2 text-[11px] tracking-[.3em] uppercase font-bold text-blush"><span class="w-2 h-2 rounded-full bg-blush animate-pulse"></span>Live sessions</span><span class="block font-serif text-xl mt-1">Join the next live Q&amp;A</span></span>
+              <span class="w-11 h-11 rounded-full border border-teal/20 flex items-center justify-center transition group-hover:bg-teal group-hover:text-cream">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="mt-10 flex items-center justify-between">
+          <p class="font-semibold">Recent uploads</p>
+          <div class="flex gap-2">
+            <button class="rail-nav" data-dir="-1" aria-label="Scroll videos left"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M11 19l-7-7 7-7"/></svg></button>
+            <button class="rail-nav" data-dir="1" aria-label="Scroll videos right"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></button>
+          </div>
+        </div>
+        <div class="yt-rail mt-5 flex gap-5 overflow-x-auto snap-x snap-mandatory pb-4" id="ytRail"></div>
+        <div class="mt-8 text-center"><a href="https://www.youtube.com/@josefinewanner/videos" target="_blank" rel="noopener" class="btn btn-ghost magnetic"><span>See all 175 videos</span></a></div>
+      </div>
+    </section>
+
+    <!-- ================= 11 TEAMS ================= -->
+    <section id="teams" class="relative pb-28 md:pb-40">
+      <div class="wrap">
+        <div class="rounded-[32px] md:rounded-[48px] bg-white overflow-hidden grid lg:grid-cols-2">
+          <div class="relative min-h-[360px]" data-cursor="View">
+            <img src="assets/speaking.jpg" alt="Josefine leading a social media strategy workshop" class="parallax-img absolute inset-0 w-full h-[115%] object-cover object-top">
+            <div class="absolute left-6 bottom-6 right-6 rounded-2xl bg-cream/95 backdrop-blur p-5 max-w-sm">
+              <p class="font-serif text-2xl leading-snug">“People connect with people. <em class="text-teal-soft">And buy from people.</em>”</p>
+            </div>
+          </div>
+          <div class="p-7 md:p-14 lg:p-16">
+            <p class="sec-label"><span>11</span>For organisations</p>
+            <h2 class="h-display mt-6">Visibility doesn't stop with <em class="text-teal-soft">one person.</em></h2>
+            <p class="mt-6 text-lg text-teal-ink/70">The same principles that help one person become visible can transform an entire organisation. When employees feel confident sharing their expertise, you gain visibility, stronger relationships and a stronger employer brand.</p>
+            <p class="mt-4 text-teal-ink/70">Keynotes, workshops and tailored training that help teams use LinkedIn with confidence. They don't need to become influencers; they represent themselves and your organisation professionally.</p>
+            <div class="mt-8 grid grid-cols-2 gap-3 text-sm font-semibold">
+              <span class="feature">Thought leadership</span><span class="feature">Employee advocacy</span><span class="feature">Recruitment</span><span class="feature">Business development</span>
+            </div>
+            <p class="mt-6 text-sm text-teal-ink/60">Every session is tailored to your audience, your objectives and their level of experience.</p>
+            <!-- TODO: replace with Josefine's real contact address (obfuscated on her current site) -->
+            <a href="mailto:hello@josefinewanner.com?subject=Workshop%20enquiry" class="btn btn-primary btn-lg magnetic mt-8"><span>Planning an event? Let's talk</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 12 ACCELERATOR ================= -->
+    <section id="accelerator" class="relative bg-teal-ink text-cream py-28 md:py-40 overflow-hidden">
+      <div class="acc-glow absolute -left-40 top-1/2 -translate-y-1/2 w-[640px] h-[640px] rounded-full bg-sand/15 blur-3xl"></div>
+      <div class="relative wrap grid lg:grid-cols-12 gap-14 items-center">
+        <div class="lg:col-span-6">
+          <p class="sec-label sec-label-light"><span>12</span>Already working with 1:1 clients?</p>
+          <p class="h-display mt-8 reveal-up">At some point, visibility is no longer the challenge. <em class="text-sand">Time is.</em></p>
+          <p class="mt-8 text-lg text-cream/70 reveal-up">If your calendar is filling up and you're ready to grow without simply working more hours, the next step isn't more clients. It's a scalable offer.</p>
+        </div>
+        <div class="lg:col-span-6">
+          <div class="rounded-[28px] border border-white/10 bg-white/[.04] p-7 md:p-10">
+            <img src="assets/accelerator-logo.png" alt="The Scalable Offer Accelerator" class="w-full max-w-sm">
+            <p class="mt-6 text-cream/70">Create, validate and launch a group program that lets you help more people while creating more freedom. Opens <strong class="text-cream">twice a year</strong> as a live cohort.</p>
+            <div class="mt-8 grid grid-cols-3 gap-3 acc-steps">
+              <div><span>01</span><p>Create</p></div>
+              <div><span>02</span><p>Validate</p></div>
+              <div><span>03</span><p>Launch</p></div>
+            </div>
+            <a href="accelerator.html" class="btn btn-sand btn-lg magnetic mt-8"><span>Join the waitlist</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CLOSING ================= -->
+    <section class="closing relative py-28 md:py-44 overflow-hidden">
+      <div class="wrap text-center">
+        <p class="text-lg md:text-xl text-teal-ink/70 max-w-2xl mx-auto">I don't believe everyone should become an entrepreneur. But if you choose to build a business, I believe it should give you more than an income.</p>
+        <p class="close-words font-serif mt-10 text-[15vw] md:text-[150px] leading-[.95] tracking-tight">
+          <span class="cw">Opportunities.</span><br><span class="cw"><em class="text-teal-soft">Choice.</em></span> <span class="cw">Freedom.</span>
+        </p>
+        <img src="assets/script-career-business.png" alt="your career. your business." class="w-72 md:w-[420px] mx-auto mt-10 -rotate-2">
+        <p class="mt-10 font-serif text-2xl md:text-3xl">One conversation. One connection. <em class="text-teal-soft">One opportunity at a time.</em></p>
+        <div class="mt-12 flex flex-wrap justify-center gap-4">
+          <a href="#blueprint" class="btn btn-primary btn-lg magnetic"><span>Download the free Blueprint today</span></a>
+          <a href="#masterclass" class="btn btn-ghost magnetic"><span>Save my masterclass seat</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-teal-ink text-cream pt-20 pb-10 rounded-t-[32px] md:rounded-t-[56px]">
+    <div class="wrap">
+      <div class="grid md:grid-cols-12 gap-10 pb-14 border-b border-white/10">
+        <div class="md:col-span-5">
+          <div class="flex items-center gap-3"><img src="assets/logo.png" alt="" class="w-12 h-12"><span class="font-serif text-2xl">Josefine <em class="text-sand">Wanner</em></span></div>
+          <p class="mt-5 text-cream/60 max-w-sm">Helping business owners become known for what they do, build genuine trust and create businesses that generate opportunities.</p>
+        </div>
+        <div class="md:col-span-2">
+          <p class="foot-h">Explore</p>
+          <ul class="mt-4 space-y-2 text-sm text-cream/80"><li><a class="nav-link" href="work-with-me.html">Work with me</a></li><li><a class="nav-link" href="blueprint.html">Free Blueprint</a></li><li><a class="nav-link" href="masterclass.html">Masterclass</a></li><li><a class="nav-link" href="blog.html">Blog</a></li><li><a class="nav-link" href="https://www.josefinewanner.com/login">Log in</a></li></ul>
+        </div>
+        <div class="md:col-span-2">
+          <p class="foot-h">Connect</p>
+          <ul class="mt-4 space-y-2 text-sm text-cream/80"><li><a class="nav-link" href="https://www.linkedin.com/in/josefine-wanner/">LinkedIn</a></li><li><a class="nav-link" href="https://www.youtube.com/@josefinewanner">YouTube</a></li><li><a class="nav-link" href="https://www.instagram.com/josefinewanner/">Instagram</a></li><li><a class="nav-link" href="https://www.facebook.com/josefine.wanner/">Facebook</a></li></ul>
+        </div>
+        <div class="md:col-span-3">
+          <p class="foot-h">Start here</p>
+          <p class="mt-4 text-sm text-cream/70">The free LinkedIn Profile Blueprint, used by 5,000+ coaches.</p>
+          <a href="#blueprint" class="btn btn-sand mt-5"><span>Get the Blueprint</span></a>
+        </div>
+      </div>
+      <p class="foot-mega font-serif text-[18vw] leading-none text-center text-white/[.05] mt-10 select-none" aria-hidden="true">Josefine</p>
+      <div class="pt-6 flex flex-col md:flex-row justify-between gap-4 text-xs text-cream/50">
+        <p>© 2026 Josefine Wanner GmbH</p>
+        <div class="flex flex-wrap gap-6"><a href="#" class="nav-link">Program terms</a><a href="#" class="nav-link">Terms &amp; conditions</a><a href="#" class="nav-link">Privacy policy</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

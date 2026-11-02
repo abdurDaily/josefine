@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog — Josefine Wanner</title>
+  <meta name="description" content="Practical guides on LinkedIn, selling without cold pitching, content and the tools behind a profitable, freedom-based business.">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{colors:{teal:{DEFAULT:'#0B4D5E',deep:'#073642',ink:'#04252E',soft:'#1E6476'},sand:{DEFAULT:'#C2A677',light:'#E4D3B0',pale:'#F1E8D8'},cream:{DEFAULT:'#F6F1E9',warm:'#EFE7DA'},blush:'#E8508E'},fontFamily:{serif:['"Playfair Display"','Georgia','serif'],sans:['Manrope','system-ui','sans-serif']}}}}</script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-cream text-teal-ink font-sans antialiased">
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"><span>Read</span></div>
+  <div class="progress" aria-hidden="true"></div>
+
+  <header id="nav" class="fixed top-0 inset-x-0 z-50 transition-all duration-500">
+    <div class="wrap h-20 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3 group" aria-label="Josefine Wanner home">
+        <img src="assets/logo.png" alt="" class="w-10 h-10 transition-transform duration-700 group-hover:rotate-[360deg]">
+        <span class="font-serif text-lg leading-none">Josefine <em class="text-teal-soft">Wanner</em></span>
+      </a>
+      <nav class="hidden lg:flex items-center gap-8 text-[13px] font-medium">
+        <a href="index.html#story" class="nav-link">My story</a>
+        <a href="work-with-me.html" class="nav-link">Work with me</a>
+        <a href="masterclass.html" class="nav-link">Masterclass</a>
+        <a href="blueprint.html" class="nav-link">Blueprint</a>
+        <a href="index.html#youtube" class="nav-link">YouTube</a>
+        <a href="blog.html" class="nav-link" aria-current="page">Blog</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="https://www.josefinewanner.com/login" class="hidden md:inline text-[13px] font-medium nav-link mr-2">Log in</a>
+        <a href="blueprint.html" class="hidden sm:inline-flex btn btn-primary magnetic"><span>Free Blueprint</span></a>
+        <button id="menuBtn" class="lg:hidden w-11 h-11 rounded-full border border-teal/20 flex flex-col items-center justify-center gap-1.5" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span class="w-5 h-px bg-teal-ink transition"></span><span class="w-5 h-px bg-teal-ink transition"></span></button>
+      </div>
+    </div>
+  </header>
+  <div id="mobileMenu" class="fixed inset-0 z-40 bg-teal-ink text-cream flex flex-col justify-center px-8 pointer-events-none opacity-0">
+    <nav class="flex flex-col gap-4 font-serif text-4xl"><a href="index.html">Home</a><a href="work-with-me.html">Work with me</a><a href="masterclass.html">Masterclass</a><a href="blueprint.html">Blueprint</a><a href="index.html#youtube">YouTube</a><a href="blog.html">Blog</a></nav>
+    <div class="mt-10 flex gap-3"><a href="blueprint.html" class="btn btn-sand"><span>Free Blueprint</span></a><a href="https://www.josefinewanner.com/login" class="btn btn-ghost-light"><span>Log in</span></a></div>
+  </div>
+
+  <main>
+    <section class="page-hero !pb-12">
+      <div class="hero-blob absolute -top-40 -right-40 w-[620px] h-[620px] rounded-full bg-sand/25 blur-3xl"></div>
+      <div class="grid-lines" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+      <div class="relative wrap grid lg:grid-cols-12 gap-10 items-end">
+        <div class="lg:col-span-8">
+          <p data-hero class="sec-label"><span>Blog</span>Josefine's journal</p>
+          <h1 class="hero-title font-serif mt-6 text-[11vw] sm:text-7xl lg:text-[88px] leading-[.98] tracking-[-0.02em]">
+            <span class="line"><span>The path to a profitable,</span></span>
+            <span class="line"><span><em class="underline-sand text-teal-soft">freedom-based</em> business.</span></span>
+          </h1>
+        </div>
+        <p data-hero class="lede lg:col-span-4">Honest, practical guides on LinkedIn, selling without cold pitching, content and the tools I actually use.</p>
+      </div>
+    </section>
+
+    <!-- FEATURED -->
+    <section class="pb-16">
+      <div class="wrap">
+        <a href="https://www.josefinewanner.com/blog/etiquette" class="post-card group grid lg:grid-cols-12 gap-8 items-center rounded-[32px] bg-white p-4 md:p-6 reveal-up" data-cursor="Read">
+          <div class="thumb lg:col-span-7"><img src="assets/blog-etiquette.jpg" alt="LinkedIn etiquette that builds trust, and business"></div>
+          <div class="lg:col-span-5 lg:pr-8 pb-4 lg:pb-0">
+            <span class="tag tag-sand-solid">Latest</span>
+            <div class="post-meta"><span class="cat">How to LinkedIn</span><span>·</span><span class="cat">Sales</span><span>·</span><time datetime="2026-09-30">Sep 30, 2026</time></div>
+            <h2 class="font-serif text-3xl md:text-5xl leading-[1.1] mt-3 group-hover:text-teal-soft transition">LinkedIn Etiquette for Building Relationships and Winning Clients</h2>
+            <span class="read-more">Read the article</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- FILTER + GRID -->
+    <section class="pb-24 md:pb-36">
+      <div class="wrap">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 pb-10 border-b border-teal/10">
+          <p class="font-serif text-2xl">More articles</p>
+          <div class="flex flex-wrap gap-2" role="group" aria-label="Filter by category">
+            <button class="filter-chip" data-cat="all" aria-pressed="true">All</button>
+            <button class="filter-chip" data-cat="how-to-linkedin" aria-pressed="false">How to LinkedIn</button>
+            <button class="filter-chip" data-cat="sales" aria-pressed="false">Sales</button>
+            <button class="filter-chip" data-cat="content-creation" aria-pressed="false">Content creation</button>
+            <button class="filter-chip" data-cat="platforms" aria-pressed="false">Platforms</button>
+            <button class="filter-chip" data-cat="substack" aria-pressed="false">Substack</button>
+            <button class="filter-chip" data-cat="tools-tech" aria-pressed="false">Tools &amp; tech</button>
+          </div>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-14 mt-12" data-stagger>
+          <a href="https://www.josefinewanner.com/blog/etiquette" class="post-card" data-cats="how-to-linkedin,sales" data-cursor="Read">
+            <div class="thumb"><img src="assets/blog-etiquette.jpg" alt="" loading="lazy"></div>
+            <div class="post-meta"><span class="cat">How to LinkedIn</span><span>·</span><time datetime="2026-09-30">Sep 30, 2026</time></div>
+            <h3>LinkedIn Etiquette for Building Relationships and Winning Clients</h3>
+            <span class="read-more">Read</span>
+          </a>
+          <a href="https://www.josefinewanner.com/blog/linkedin-sales" class="post-card" data-cats="how-to-linkedin,sales" data-cursor="Read">
+            <div class="thumb"><img src="assets/blog-sales.jpg" alt="" loading="lazy"></div>
+            <div class="post-meta"><span class="cat">Sales</span><span>·</span><time datetime="2026-08-28">Aug 28, 2026</time></div>
+            <h3>How to Sell on LinkedIn Without Cold Pitching Anyone</h3>
+            <span class="read-more">Read</span>
+          </a>
+          <a href="https://www.josefinewanner.com/blog/linkedin-mistakes" class="post-card" data-cats="" data-cursor="Read">
+            <div class="thumb"><img src="assets/blog-mistakes.jpg" alt="" loading="lazy"></div>
+            <div class="post-meta"><span class="cat">LinkedIn</span><span>·</span><time datetime="2026-08-26">Aug 26, 2026</time></div>
+            <h3>4 LinkedIn Mistakes That Could Be Stopping You From Getting Clients</h3>
+            <span class="read-more">Read</span>
+          </a>
+          <a href="https://www.josefinewanner.com/blog/tech-stack" class="post-card" data-cats="tools-tech" data-cursor="Read">
+            <div class="thumb"><img src="assets/blog-techstack.jpg" alt="" loading="lazy"></div>
+            <div class="post-meta"><span class="cat">Tools &amp; tech</span><span>·</span><time datetime="2026-08-22">Aug 22, 2026</time></div>
+            <h3>My Online Business Tech Stack: The Tools I Actually Use to Run My Business</h3>
+            <span class="read-more">Read</span>
+          </a>
+          <a href="https://www.josefinewanner.com/blog/substack" class="post-card" data-cats="content-creation,platforms,substack" data-cursor="Read">
+            <div class="thumb"><img src="assets/blog-substack.jpg" alt="" loading="lazy"></div>
+            <div class="post-meta"><span class="cat">Platforms</span><span>·</span><time datetime="2026-08-19">Aug 19, 2026</time></div>
+            <h3>Should You Use Substack? Why I Decided Not to Join</h3>
+            <span class="read-more">Read</span>
+          </a>
+          <a href="https://www.josefinewanner.com/blog/linkedin-business-page" class="post-card" data-cats="how-to-linkedin,platforms" data-cursor="Read">
+            <div class="thumb"><img src="assets/blog-businesspage.jpg" alt="" loading="lazy"></div>
+            <div class="post-meta"><span class="cat">How to LinkedIn</span><span>·</span><time datetime="2026-08-15">Aug 15, 2026</time></div>
+            <h3>How To Create Your LinkedIn Business Page: What You're Getting Wrong and How to Fix It</h3>
+            <span class="read-more">Read</span>
+          </a>
+        </div>
+        <p class="filter-empty text-center text-teal-ink/60 mt-10" hidden>No articles in this category yet.</p>
+      </div>
+    </section>
+
+    <!-- SUBSCRIBE BAND -->
+    <section class="pb-24 md:pb-36">
+      <div class="wrap grid lg:grid-cols-2 gap-5">
+        <div class="rounded-[32px] bg-teal-ink text-cream p-8 md:p-12 relative overflow-hidden">
+          <div class="absolute -right-24 -bottom-24 w-80 h-80 rounded-full bg-sand/15 blur-3xl"></div>
+          <p class="relative text-[11px] tracking-[.3em] uppercase text-sand font-bold">Free resource</p>
+          <h2 class="relative font-serif text-3xl md:text-5xl leading-tight mt-4">Put the ideas to work with the <em class="text-sand">LinkedIn Profile Blueprint</em></h2>
+          <form data-demo-form data-success="On its way ✓" data-message="Check your inbox: your Blueprint is on its way." class="relative mt-8 flex flex-col sm:flex-row gap-3">
+            <label for="b-email" class="sr-only">Email address</label>
+            <input id="b-email" type="email" required autocomplete="email" placeholder="Your best email" class="flex-1 rounded-full bg-white/10 border border-white/15 px-6 py-4 placeholder:text-cream/40 focus:outline-none focus:border-sand">
+            <button type="submit" class="btn btn-sand magnetic justify-center"><span>Send it to me</span></button>
+          </form>
+          <p class="form-msg relative mt-3 text-sm text-cream/50" aria-live="polite"></p>
+        </div>
+        <a href="index.html#youtube" class="rounded-[32px] bg-white p-8 md:p-12 flex flex-col group border border-teal/10" data-cursor="Watch">
+          <p class="flex items-center gap-2 text-[11px] tracking-[.3em] uppercase font-bold text-blush"><span class="w-2 h-2 rounded-full bg-blush animate-pulse"></span>Prefer video?</p>
+          <h2 class="font-serif text-3xl md:text-5xl leading-tight mt-4">175 free videos on <em class="text-teal-soft">YouTube</em></h2>
+          <p class="mt-4 text-teal-ink/65">Weekly strategy, live Q&amp;As and behind-the-scenes of building a scalable business.</p>
+          <span class="mt-auto pt-8 inline-flex items-center gap-3 font-semibold">Watch the latest <span class="w-11 h-11 rounded-full border border-teal/20 flex items-center justify-center transition group-hover:bg-teal group-hover:text-cream">↗</span></span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-teal-ink text-cream pt-20 pb-10 rounded-t-[32px] md:rounded-t-[56px]">
+    <div class="wrap">
+      <div class="grid md:grid-cols-12 gap-10 pb-14 border-b border-white/10">
+        <div class="md:col-span-5"><div class="flex items-center gap-3"><img src="assets/logo.png" alt="" class="w-12 h-12"><span class="font-serif text-2xl">Josefine <em class="text-sand">Wanner</em></span></div><p class="mt-5 text-cream/60 max-w-sm">Helping business owners become known for what they do, build genuine trust and create businesses that generate opportunities.</p></div>
+        <div class="md:col-span-2"><p class="foot-h">Explore</p><ul class="mt-4 space-y-2 text-sm text-cream/80"><li><a class="nav-link" href="work-with-me.html">Work with me</a></li><li><a class="nav-link" href="blueprint.html">Free Blueprint</a></li><li><a class="nav-link" href="masterclass.html">Masterclass</a></li><li><a class="nav-link" href="accelerator.html">Accelerator</a></li><li><a class="nav-link" href="blog.html">Blog</a></li></ul></div>
+        <div class="md:col-span-2"><p class="foot-h">Connect</p><ul class="mt-4 space-y-2 text-sm text-cream/80"><li><a class="nav-link" href="https://www.linkedin.com/in/josefine-wanner/">LinkedIn</a></li><li><a class="nav-link" href="https://www.youtube.com/@josefinewanner">YouTube</a></li><li><a class="nav-link" href="https://www.instagram.com/josefinewanner/">Instagram</a></li><li><a class="nav-link" href="https://www.facebook.com/josefine.wanner/">Facebook</a></li></ul></div>
+        <div class="md:col-span-3"><p class="foot-h">Start here</p><p class="mt-4 text-sm text-cream/70">The free LinkedIn Profile Blueprint, used by 5,000+ coaches.</p><a href="blueprint.html" class="btn btn-sand mt-5"><span>Get the Blueprint</span></a></div>
+      </div>
+      <p class="foot-mega font-serif text-[18vw] leading-none text-center text-white/[.05] mt-10 select-none" aria-hidden="true">Josefine</p>
+      <div class="pt-6 flex flex-col md:flex-row justify-between gap-4 text-xs text-cream/50"><p>© 2026 Josefine Wanner GmbH</p><div class="flex flex-wrap gap-6"><a href="#" class="nav-link">Program terms</a><a href="#" class="nav-link">Terms &amp; conditions</a><a href="#" class="nav-link">Privacy policy</a></div></div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
